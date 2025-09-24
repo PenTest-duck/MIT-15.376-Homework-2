@@ -12,7 +12,8 @@ import json
 import base64
 
 from anthropic import Anthropic
-
+from dotenv import load_dotenv
+load_dotenv()
 
 import sys
 sys.stdout.reconfigure(line_buffering=True)

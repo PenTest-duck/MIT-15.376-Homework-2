@@ -3,6 +3,8 @@ import os
 from nanda_adapter import NANDA
 from crewai import Agent, Task, Crew
 from langchain_anthropic import ChatAnthropic
+from dotenv import load_dotenv
+load_dotenv()
 
 def create_sarcastic_improvement():
     """Create a CrewAI-powered sarcastic improvement function"""

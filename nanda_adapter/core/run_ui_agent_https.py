@@ -15,6 +15,8 @@ from queue import Queue
 from threading import Event
 import ssl
 import datetime
+from dotenv import load_dotenv
+load_dotenv()
 
 sys.stdout.reconfigure(line_buffering=True)
 

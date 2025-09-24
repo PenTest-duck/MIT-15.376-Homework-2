@@ -15,6 +15,8 @@ from python_a2a import (
 import asyncio
 from mcp_utils import MCPClient
 import base64
+from dotenv import load_dotenv
+load_dotenv()
 
 import sys
 sys.stdout.reconfigure(line_buffering=True)

@@ -13,6 +13,8 @@ import signal
 import requests
 import random
 import threading
+from dotenv import load_dotenv
+load_dotenv()
 
 # Handle different import contexts
 try:
