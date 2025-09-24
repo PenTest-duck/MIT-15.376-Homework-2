@@ -1,0 +1,7 @@
+# Core dependencies for langchain_pirate.py
+langchain-core
+langchain-anthropic
+python-dotenv
+
+# NANDA Adapter
+nanda-adapter
