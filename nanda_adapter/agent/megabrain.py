@@ -62,7 +62,7 @@ def create_megabrain_agent():
     # Initialize the LLM
     llm = ChatAnthropic(
         api_key=os.getenv("ANTHROPIC_API_KEY"),
-        model="claude-3-sonnet-20240229"  # Using Sonnet for better reasoning
+        model="claude-3-haiku-20240307"
     )
 
     def megabrain_improvement(message_text: str) -> str:
