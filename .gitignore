@@ -5,6 +5,7 @@ agents/__pycache__/
 conversation_logs/
 agents/test.py
 nanda_agent/__pycache__
+.venv
 
 # Build artifacts
 dist/
