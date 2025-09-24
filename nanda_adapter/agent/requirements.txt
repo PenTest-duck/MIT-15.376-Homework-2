@@ -1,0 +1,8 @@
+# Core dependencies for megabrain.py
+langchain-core
+langchain-anthropic
+python-dotenv
+requests
+
+# NANDA Adapter
+nanda-adapter
